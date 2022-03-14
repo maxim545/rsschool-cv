@@ -1,9 +1,8 @@
 # Maksim Karotkin
-----------------------------------------------------------------
+===============================================
+
 ## Contacts
-| Name     | Link |
-| -------- | ----------- |
-| E-mail   | maxximc95@gmail.com |
-| GitHub   | https://github.com/maxim545 |
-| Telegram | https://t.me/maxim5459 |
-| Discord  | aweso545#8884 |
++ __E-mail:__ maxximc95@gmail.com
++__GitHub:__ https://github.com/maxim545
++__Telegram:__ https://t.me/maxim5459
++__Discord:__ aweso545#8884

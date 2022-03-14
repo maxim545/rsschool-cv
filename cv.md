@@ -17,7 +17,7 @@ At this stage of my life, I want to connect my career with front-end development
 + __JavaScript__ Fundamentals, ES6+, DOM
 + __WordPress__ 
 + __Git__
-+ __Module bundler__ aweso545#8884
++ __Module bundler__ Gulp
 + __Editors__ Sublime Text, VSCode
 + __SEO__
 + __Other tools__ Figma, Avocode, Zeplin, Photoshop.

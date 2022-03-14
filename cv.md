@@ -1,6 +1,4 @@
-::: warning
 # *Maksim Karotkin*
-:::
 
 ## Contacts
 + __E-mail:__ maxximc95@gmail.com;
@@ -24,3 +22,26 @@ At this stage of my life, I want to connect my career with front-end development
 + __SEO__
 + __Other tools__ Figma, Avocode, Zeplin, Photoshop.
 
+
+## Code example:
+``` js
+Array.prototype.groupBy = function(fn = undefined) {
+    let newObj = {};
+    for (let i = 0; i < this.length; i++) {
+     fn === undefined ? newObj[this[i]] = this.filter(a=> a===this[i]) : newObj[fn(this[i])] = this.filter(a=> fn(a)===fn(this[i]))
+    } 
+    return newObj
+  };
+```
+
+## Experience:
+After university worked as a quality engineer for 3 years. As a hobby after work, I was engaged in web development. 
+
+
+## Education
+Belarusian-Russian University -> Electrical engineering faculty -> Quality engineer.
+
+## Languages
++ __Belarusian:__ B2
++ __English:__ Listening B1, Speaking A2, Reading B1, Writing A2.
++ __Russian:__ Native

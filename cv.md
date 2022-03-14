@@ -28,10 +28,10 @@ At this stage of my life, I want to connect my career with front-end development
 Array.prototype.groupBy = function(fn = undefined) {
     let newObj = {};
     for (let i = 0; i < this.length; i++) {
-     fn === undefined ? newObj[this[i]] = this.filter(a=> a===this[i]) : newObj[fn(this[i])] = this.filter(a=> fn(a)===fn(this[i]))
-    } 
-    return newObj
-  };
+    fn === undefined ? newObj[this[i]] = this.filter(a=> a===this[i]) : newObj[fn(this[i])] = this.filter(a=> fn(a)===fn(this[i]))
+};
+    return newObj;
+};
 ```
 
 ## Experience:

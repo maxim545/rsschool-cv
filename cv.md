@@ -23,7 +23,7 @@ At this stage of my life, I want to connect my career with front-end development
 + __Other tools__ Figma, Avocode, Zeplin, Photoshop.
 
 
-## Code example:
+## Code example
 ``` js
 Array.prototype.groupBy = function(fn = undefined) {
     let newObj = {};
@@ -34,7 +34,7 @@ Array.prototype.groupBy = function(fn = undefined) {
 };
 ```
 
-## Experience:
+## Experience
 After university worked as a quality engineer for 3 years. As a hobby after work, I was engaged in web development. 
 
 

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CV</title>
+	<meta name="description" content="CV">
+	<link rel="icon" href="images/favicon.svg">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+</head>
+
+<body class="body">
+<div class="wrapper">
+	<header class="header">
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__items"><a href="index.html#section-contacts" class="nav__link">Contacts</a></li>
+				<li class="nav__items"><a href="index.html#section-about" class="nav__link">About me</a></li>
+				<li class="nav__items"><a href="index.html#section-skills" class="nav__link">Skills</a></li>
+				<li class="nav__items"><a href="index.html#section-code" class="nav__link">Code example</a></li>
+				<li class="nav__items"><a href="index.html#section-experience" class="nav__link">Experience</a></li>
+				<li class="nav__items"><a href="index.html#section-education" class="nav__link">Education</a></li>
+				<li class="nav__items"><a href="index.html#section-languages" class="nav__link">Languages</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="info">
+		<div class="info__photo"></div>
+		<div class="info__name">
+			<h1 class="info__title">Maksim Karotkin</h1>
+			<h2 class="info__subtitle">Junior Front-End Developer</h2>
+	</div>
+	</div>
+	<main class="content">
+		<aside class="content__left">
+			<div class="contacts" id="section-contacts">
+				<h3 class="title contacts__title">Contacts</h3>
+				<div class="contacts__content">
+					<ul class="contacts__list">
+						<li class="contacts__item"><span class="contacts__name">Location</span>Belarus, Mogilev</li>
+						<li class="contacts__item"><span class="contacts__name">E-mail</span><a href="mailto:maxximc95@gmail.com" class="contacts__link">maxximc95@gmail.com</a></li>
+						<li class="contacts__item"><span class="contacts__name">GitHub</span><a href="https://github.com/maxim545" class="contacts__link">maxim545</a></li>
+						<li class="contacts__item"><span class="contacts__name">Telegram</span><a href="https://t.me/maxim5459" class="contacts__link">maxim5459</a></li>
+						<li class="contacts__item"><span class="contacts__name">Discord</span>aweso545#8884</li>
+						<li class="contacts__item"><span class="contacts__name">Skype</span>max18952</li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+		<div class="content__right">
+			<section class="section" id="section-about">
+				<div class="section__header">
+					<div class="title section__title">About me</div>
+				</div>
+				<div class="section__content">I am 27 years old, I am an engineer by education. My first acquaintance with web development began at school, then I first got acquainted with HTML and CSS. After some time, I was very interested in the process of creating websites, after which I began to create websites on my own, and then promote them, for me it was like a hobby. At this stage of my life, I want to connect my career with front-end development and become a professional in this field.</div>
+			</section>
+			<section class="section skills" id="section-skills">
+				<div class="section__header">
+					<div class="title section__title">Skills</div>
+				</div>
+				<div class="section__content">
+					<ul class="skills__list">
+						<li class="skills__item"><span class="skill__name">HTML: </span>Flex, Grid, Bootstrap</li>
+						<li class="skills__item"><span class="skill__name">CSS: </span>SCSS, BEM</li>
+						<li class="skills__item"><span class="skill__name">JavaScript: </span>Fundamentals, ES6+, DOM</li>
+						<li class="skills__item"><span class="skill__name">WordPress</span></li>
+						<li class="skills__item"><span class="skill__name">Git</span></li>
+						<li class="skills__item"><span class="skill__name">Module bundler: </span>Gulp</li>
+						<li class="skills__item"><span class="skill__name">Editors: </span>Sublime Text, VSCode</li>
+						<li class="skills__item"><span class="skill__name">SEO</li>
+						<li class="skills__item"><span class="skill__name">Other tools: </span>Figma, Avocode, Zeplin, Photoshop.</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section code" id="section-code">
+				<div class="section__header">
+					<div class="title section__title">Code example</div>
+				</div>
+				<div class="section__content">
+					<pre class="code__syntax">
+						<code>
+Array.prototype.groupBy = function(fn = undefined) {
+	let newObj = {};
+	for (let i = 0; i < this.length; i++) {
+		fn === undefined ? newObj[this[i]] = this
+			.filter(a => a === this[i]) : newObj[fn(this[i])] = this
+			.filter(a => fn(a) === fn(this[i]))
+	};
+	return newObj;
+}</code>
+		</pre>
+				</div> 
+			</section>
+			<section class="section" id="section-experience">
+				<div class="section__header">
+					<div class="title section__title">Experience</div>
+				</div>
+				<div class="section__content">
+					After university worked as a quality engineer for 3 years. As a hobby after work, I was engaged in web development.
+				</div>
+			</section>
+			<section class="section education" id="section-education">
+				<div class="section__header">
+					<div class="title section__title">Education</div>
+				</div>
+					<div class="education__items">
+						<div class="education__item">
+							<div class="education__header">
+								<div class="education__name">Belarusian-Russian University</div>
+								<div class="education__year">2012-2017</div>
+							</div>
+							<div class="education__faculty">Electrical engineering faculty</div>
+							<div class="education__specialization">Methods and devices for quality control and diagnostics of the state of objects</div>	
+						</div>
+					</div>
+			</section>
+			<section class="section languages" id="section-languages">
+				<div class="section__header">
+					<div class="title section__title">Languages</div>
+				</div>
+				<div class="section__content">
+					<div class="languages__content">
+						<ul class="languages__items">
+							<li class="languages__item"><span class="languages__name">Belarusian: </span>B2</li>
+							<li class="languages__item"><span class="languages__name">English: </span>B1</li>
+							<li class="languages__item"><span class="languages__name">Russian: </span>Native</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+		<footer class="footer">
+			<div class="footer__items">
+				<div class="footer__item"><a class="footer__link" href="https://github.com/maxim545">GitHub</a></div>
+				<div class="footer__item"><a class="footer__link" href="https://rs.school/js/"><img class="footer__img" src="images/rs_school_js.svg" alt="RS-School"></a></div>
+			</div>
+		</footer>
+	</div>
+	
+
+</body>
+</html>

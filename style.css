@@ -1,0 +1,313 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+.body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    color: #333;
+    position: relative;
+    background-color: #f8c749;
+}
+
+.wrapper {
+    display: block;
+    margin: 100px auto;
+    padding: 60px;
+    max-width: 1230px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 52px 1px rgba(96, 96, 96, 0.55);
+    -moz-box-shadow: 0px 0px 52px 1px rgba(96, 96, 96, 0.55);
+    box-shadow: 0px 0px 52px 1px rgba(96, 96, 96, 0.55);
+}
+
+/* HEADER */
+.nav__list {
+    display: flex;
+    justify-content: space-between
+}
+
+.nav__link {
+    color: #111;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link:hover {
+    color: rgb(83, 83, 83);
+}
+
+/* INFO */
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+
+.info__img {
+    display: block;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 4px solid #f8c749;
+    background-color: #999;
+}
+
+.info__title {
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.info__subtitle {
+    font-size: 26px;
+}
+
+/* CONTENT */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.title {
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f8c749;
+}
+
+/* CONTACTS */
+.contacts__title {
+    max-width: 300px;
+    padding: 0 10px;
+}
+
+.contacts__list {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.contacts__item {
+    margin-top: 10px;
+}
+
+.contacts__name {
+    display: block;
+    font-weight: bold;
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: #333;
+}
+
+/* MAIN SECTION STYLES */
+.section__content {
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+/* SECTION CODE */
+.code {
+    padding: 15px 0;
+}
+
+.code__syntax {
+    max-width: 100%;
+    background-color: rgb(211, 211, 211);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+/* SECTION SKILL */
+.skills__list {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.skills__item {
+    list-style-type: disc;
+}
+
+.skill__name {
+    font-weight: bold;
+}
+
+/* SECTION EDUCATION */
+.education__items {
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+.education__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education__header {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* SECTION LANGUAGES */
+
+.languages__content {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.languages__item {
+    list-style-type: disc;
+}
+
+.languages__name {
+    font-weight: bold;
+}
+
+/* SECTION LANGUAGES */
+.footer {
+    padding-top: 20px;
+}
+
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #f8c749;
+    padding-top: 30px;
+}
+
+.footer__img {
+    width: 80px;
+    height: 40px;
+}
+
+.footer__link {
+    color: #111;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    opacity: 0.75;
+}

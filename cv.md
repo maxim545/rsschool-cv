@@ -13,17 +13,24 @@ At this stage of my life, I want to connect my career with front-end development
 
 ## Skills
 + __HTML__ Bootstrap, Flex, Grid
-+ __CSS__ SCSS, BEM
-+ __JavaScript__ Fundamentals, ES6+, DOM
++ __CSS__ Sass, BEM
++ __JavaScript__ ES6+, DOM
 + __WordPress__ 
++ __TypeScript__
++  __Node.js__
 + __Git__
-+ __Module bundler__ Gulp
++ __Module bundler__ Gulp, Webpack
 + __Editors__ Sublime Text, VSCode
 + __SEO__
++ __Rest API__
++ __OOP__
++ __SOLID__
++ __Design Patterns__
 + __Other tools__ Figma, Avocode, Zeplin, Photoshop.
 
 
 ## Code example
+__Codewars:__ [task]([https://t.me/maxim5459](https://www.codewars.com/kata/53c2c3e78d298dddda000460)
 ``` js
 Array.prototype.groupBy = function(fn = undefined) {
     let newObj = {};

@@ -23,14 +23,12 @@ At this stage of my life, I want to connect my career with front-end development
 + __Editors__ Sublime Text, VSCode
 + __SEO__
 + __Rest API__
-+ __OOP__
-+ __SOLID__
-+ __Design Patterns__
++ __OOP__, __SOLID__, __Design Patterns__
 + __Other tools__ Figma, Avocode, Zeplin, Photoshop.
 
 
 ## Code example
-__Codewars:__ [task]([https://t.me/maxim5459](https://www.codewars.com/kata/53c2c3e78d298dddda000460)
+[Codewars](https://www.codewars.com/kata/53c2c3e78d298dddda000460)
 ``` js
 Array.prototype.groupBy = function(fn = undefined) {
     let newObj = {};
